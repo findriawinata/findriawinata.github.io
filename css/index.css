@@ -1,0 +1,136 @@
+html, body{
+	margin: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	background: black;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.logo{
+	width: 15%;
+	height: 10%;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.menu{
+	list-style: none;
+	float: right;
+	padding-right: 20px;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a{
+	display: block;
+	font-size: 20px;
+	color: beige;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 30px 0;
+	margin-right: 20px;
+}
+
+h1{
+	text-align: center;
+	background: lightgoldenrodyellow;
+}
+
+p{
+	text-align: center;
+}
+
+.section{
+	background: wheat;
+	padding: 50px 15px;
+	position: relative;
+	height: 400px;
+}
+
+.galeri{
+	text-align: center;
+}
+
+figcaption{
+	text-align: center;
+}
+
+.galeri:hover {
+    border: 1px solid #777;
+}
+
+.galeri img {
+    width: 50%;
+    height: auto;
+}
+
+* {
+	box-sizing: content-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+	width: 20%;
+	height: 20%;
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 49.99999%;
+        margin: 1px 0;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+	background-color: black;
+	padding: 20px 29px;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.footer sosmed{
+	margin-right: 20px;
+	height: 25px;
+	padding-top: 20px;
+}
+
+.footer sosmed a{
+	margin-right: 50px;
+}
+
+.icon{
+	width: 25px;
+	height: 25px;
+}
+
+.copyright{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	text-align-last: left;
+	color: whitesmoke;
+}
