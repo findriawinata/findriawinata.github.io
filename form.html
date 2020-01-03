@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header class="header">
+        <h1><a href="index.html"></a></h1>
+        <img src="gambar/ebook.jpg" class="logo">
+        <ul class="menu">
+            <li>
+                <a href="index.html" >Home</a>
+            </li>
+            <li>
+                <a href="galeri.html" >Gallery</a>
+            </li>
+            <li>
+                <a href="form.html" >Form</a>
+            </li>
+            <li>
+                <a href="table.html" >Story</a>
+            </li>
+        </ul>
+    </header>
+    <section>
+        <h2>Pemesanan Buku</h2>
+        <p class="tulisan">Silakan Isi Form Ini</p>
+            <form action="form.php" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="nama">Nama Lengkap</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" id="nama" autocomplete="off" class="form" size="60"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" name="email" autocomplete="off" class="form"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="no_hp">No HP</label></td>
+                        <td>:</td>
+                        <td><input type="Telepon" name="no_hp" autocomplete="off" class="form"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat Lengkap</label></td>
+                        <td>:</td>
+                        <td><textarea name="alamat" cols="21" rows="4" class="form"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="judul">Judul Buku</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="judul" class="form"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jumlah">Jumlah</label></td>
+                        <td>:</td>
+                        <td><input type="number" name="jumlah" class="form"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td><input type="submit" name="submit" value="Pesan" class="tombol"></td>
+                    </tr>
+                </table>  
+            </form>
+    </section>
+    <footer class="footer">
+        <div class="sosmed">
+        <h3>Connect With Us</h3>
+            <a href="https://www.facebook.com/Findriawinata"><img src="gambar/fb.png" alt="fb" class="icon"></a>
+            <a href="https://www.instagram.com/findriawinata/?hl=id"><img src="gambar/ig.jpg" alt="ig" class="icon"></a>
+            <a href="mailto:findriawinata28@gmail.com"><img src="gambar/email.png" alt="email" class="icon"></a>
+            <div class="copyright">&copy;2019 ebook.com</div>
+        </footer>
+</body>
+</html>
